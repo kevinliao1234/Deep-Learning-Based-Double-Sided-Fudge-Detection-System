@@ -1,0 +1,57 @@
+label_hole(177張)(99.99%)
+預測為 hole 的圖片數量: 177
+
+
+label_leak(151張)(87.42%)
+預測為 hole 的圖片數量: 2
+預測為 leak 的圖片數量: 132
+預測為 normal 的圖片數量: 10
+預測為 white 的圖片數量: 7
+
+
+label_normal(400張)(91.75%)
+預測為 hole 的圖片數量: 3
+預測為 leak 的圖片數量: 13
+預測為 normal 的圖片數量: 367
+預測為 white 的圖片數量: 13
+
+
+label_white(197張)(98.98%)
+預測為 white 的圖片數量: 195
+預測為 bhole 的圖片數量: 2
+
+
+label_back_hole(8張)(50%)
+預測為 hole 的圖片數量: 4
+預測為 normal 的圖片數量: 2
+預測為 white 的圖片數量: 1
+
+
+label_back_leak(147張)(92.52%)
+預測為 hole 的圖片數量: 1
+預測為 leak 的圖片數量: 136
+預測為 normal 的圖片數量: 4
+預測為 white 的圖片數量: 4
+預測為 bhole 的圖片數量: 2
+
+
+label_back_normal(72張)(41.67%)
+預測為 hole 的圖片數量: 12
+預測為 normal 的圖片數量: 30
+預測為 white 的圖片數量: 24
+
+
+label_back_white(156張)(89.1%)
+預測為 hole 的圖片數量: 4
+預測為 leak 的圖片數量: 9
+預測為 white 的圖片數量: 139
+
+
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 62/62 [00:05<00:00, 11.04it/s]
+                   all        990        990      0.987      0.994      0.995      0.945
+                  hole        179        179          1      0.979      0.994      0.934
+                  leak        173        173          1       0.99      0.995      0.925
+                normal        449        449      0.989          1      0.994      0.981
+                 white        186        186      0.999          1      0.995      0.891
+                 bhole          3          3      0.947          1      0.995      0.995
